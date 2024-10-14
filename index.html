@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VVN</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            width: 100%;
+        }
+
+        /* Ensure the body scrolls */
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Style for the GIFs to cover the entire screen */
+        .full-screen {
+            height: 100vh; /* Full viewport height */
+            width: 100vw; /* Full viewport width */
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: fill; /* Stretch GIFs to fill the screen completely */
+        }
+
+        /* Style for the icons row */
+        .icons-container {
+            display: flex;
+            gap: 20px; /* Space between icons */
+            justify-content: center;
+            margin: 20px 0; /* Add some space around the icons row */
+        }
+
+        .icons-container a {
+            display: inline-block;
+            width: 50px; /* Icon size */
+            height: 50px;
+        }
+
+        .icons-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain; /* Ensures the icon fits within the box */
+        }
+
+        /* Style for the larger GIF below icons */
+        .larger-gif {  /* Make it 80% of the viewport width */
+            height: 30vh;  /* Adjust the height proportionally */
+        }
+    </style>
+</head>
+<body>
+    <div class="full-screen">
+        <img src="gifs/1.gif" alt="Full-Screen GIF"> <!-- Replace with your GIF path -->
+    </div>
+
+    <div class="icons-container">
+        <a href="https://www.instagram.com" target="_blank">
+            <img src="icons/insta.png" alt="Instagram Icon">
+        </a>
+        <a href="https://soundcloud.com" target="_blank">
+            <img src="icons/sound.png" alt="SoundCloud Icon">
+        </a>
+        <a href="https://spotify.com" target="_blank">
+            <img src="icons/spot.png" alt="Spotify Icon">
+        </a>
+        <a href="https://youtube.com" target="_blank">
+            <img src="icons/you.png" alt="YouTube Icon">
+        </a>
+    </div>
+
+    <div>
+        <a href="https://linktr.ee/jambalayaviv?fbclid=PAZXh0bgNhZW0CMTEAAaZU-C3cESG2D0Ro3L-08GzTkUVXCJ5mA6_c--xgdh1JaQOSSSi7iXCel5k_aem_M6pa4KK6AJt-8X2tYrUb4w" target="_blank">
+        <img src="gifs/rec.gif" alt="Record" class="larger-gif"> <!-- Larger GIF below icons -->
+        <a></a>
+    </div>
+
+    <div style="width: 80vw;">
+
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1854910311&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user118173924" title="V V N" target="_blank" style="color: #cccccc; text-decoration: none;">V V N</a> · <a href="https://soundcloud.com/user118173924/front-seat-freestyle-prod-v-v-n" title="front seat (freestyle) prod. V V N" target="_blank" style="color: #cccccc; text-decoration: none;">front seat (freestyle) prod. V V N</a></div>
+        <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1870948206&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user118173924" title="V V N" target="_blank" style="color: #cccccc; text-decoration: none;">V V N</a> · <a href="https://soundcloud.com/user118173924/ring-my-bell-demo" title="Ring The Bell (demo)" target="_blank" style="color: #cccccc; text-decoration: none;">Ring The Bell (demo)</a></div>
+
+    </div>
+
+    <div style="width: 100%; display: flex; flex-direction: column; align-items: center; gap: 20px; margin-top: 20px;">
+        <iframe style="width: 50vw; height: calc(50vw * 9 / 16);" 
+                src="https://www.youtube.com/embed/owweDcK9Cog?si=vWFQXNNA73EGyAls" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+        <iframe style="width: 50vw; height: calc(50vw * 9 / 16);" 
+                src="https://www.youtube.com/embed/2EgHRh7CVaI?si=NxHEmwsHfiAJgXLo" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    
+
+    <div class="full-screen">
+        <img src="gifs/bottom.gif" alt="Full-Screen GIF"> <!-- Replace with your vertical GIF path -->
+    </div>
+
+    <script>
+      
+    </script>
+</body>
+</html>
